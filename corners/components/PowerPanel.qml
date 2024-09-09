@@ -96,7 +96,7 @@ Item {
 
         background: Rectangle {
             radius: config.Radius * 1.8
-            color: config.PopupColor
+            color: config.PopupColorPower
         }
 
         contentItem: ListView {
@@ -166,7 +166,7 @@ Item {
 
                         anchors.fill: powerIcon
                         source: powerIcon
-                        color: config.PopupColor
+                        color: config.PopupColorPower
                     }
 
                     Text {
@@ -181,7 +181,7 @@ Item {
                         anchors.centerIn: parent
                         renderType: Text.NativeRendering
                         horizontalAlignment: Text.AlignHCenter
-                        color: config.PopupColor
+                        color: config.PopupColorPower
                         text: name
                         opacity: 0
                     }

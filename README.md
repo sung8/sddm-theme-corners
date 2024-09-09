@@ -1,13 +1,25 @@
 # corners
+Fork of <strong>[aczw/sddm-theme-corners](https://github.com/aczw/sddm-theme-corners)</strong>.
+
+##### Note to self:
+Preview themes with the following command:
+```bash
+sddm-greeter --test-mode --theme corners
+```
+##### Changes:
+ * Added more color flexibility to the popups for the power and session buttons. 
+ * Used *gruvbox* colors. 
+
+----
 
 A very customizable [SDDM](https://github.com/sddm/sddm) theme that places controls on your screen corners.
 
 <img src="docs/glacier.png" width="45%"></img>
-<img src="docs/hanako.png" width="45%"></img>
-<img src="docs/loud.png" width="45%"></img>
-<img src="docs/sky.png" width="45%"></img>
+<img src="docs/franxx.png" width="45%"></img>
+<img src="docs/curves.png" width="45%"></img>
+<img src="docs/girl.png" width="45%"></img>
 
-I couldn't really find a preexisting theme that I liked, so I made my own. Layout inspired by [sddm-chinese-painting-theme](https://github.com/fralonra/sddm-chinese-painting-theme).
+Layout inspired by [sddm-chinese-painting-theme](https://github.com/fralonra/sddm-chinese-painting-theme).
 
 ## Dependencies
 
